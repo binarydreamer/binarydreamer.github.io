@@ -17,34 +17,83 @@
 @import "Utility";
 @import "highlight";
 
-.site-title {
+@import "font-awesome/variables";
+@import "font-awesome/mixins";
+@import "font-awesome/path";
+@import "font-awesome/core";
+@import "font-awesome/larger";
+@import "font-awesome/fixed-width";
+@import "font-awesome/list";
+@import "font-awesome/bordered-pulled";
+@import "font-awesome/animated";
+@import "font-awesome/rotated-flipped";
+@import "font-awesome/stacked";
+@import "font-awesome/icons";
+@import "font-awesome/screen-reader";
+
+html {
+  position:relative;
+  min-height:100%;
+}
+body {
+  margin:0 0 50px 0;
+}
+.title {
     a {
         color: $color-secondary;
+        &:hover {
+            color: $color-primary;
+        }
     }
 }
 .author {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     margin-left: 4rem;
 }
 .post-list {
-    margin-top:4rem;
+    margin-top:2rem;
+    margin-left:4rem;
+    h4 {
+        margin-bottom: 0.1rem;
+    }
 }
 
-.ripped-off-style-bar {
+.style-bar {
+    // liked the thin bar in this theme http://gayan.me/harmony-jeyll-theme/
     background-color: $color-primary;
     height:10px;
 }
-.ripped-off-style-bar-post {
-    background-color: $color-post;
-    height:10px;
-}
 
+.post {
+    border-top: solid 1px $color-quaternary;
+    padding-top: 2.5rem;
+
+    &:first-child {
+        border-top: none;
+        padding-top: 0;
+    }
+}
 .text-center {
     text-align: center;
 }
 footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+
     background-color: $color-primary;
     height:50px;
     line-height: 50px;
     color: $color-tertiary;
+
+    a {
+        color: $color-tertiary;
+        margin-left: 5px;
+        &:hover {
+            color: $color-quaternary;
+        }
+        &:first-child{
+            margin-left: 10px;
+        }
+    }
 }
