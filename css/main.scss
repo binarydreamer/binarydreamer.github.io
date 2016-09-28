@@ -18,11 +18,13 @@
 @import "highlight";
 
 .site-title {
-    margin-bottom: 4rem;
-
     a {
         color: $color-secondary;
     }
+}
+.author {
+    margin-bottom: 4rem;
+    margin-left: 4rem;
 }
 .post-list {
     margin-top:4rem;
