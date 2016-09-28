@@ -19,6 +19,10 @@
 
 .site-title {
     margin-bottom: 4rem;
+
+    a {
+        color: $color-secondary;
+    }
 }
 .post-list {
     margin-top:4rem;

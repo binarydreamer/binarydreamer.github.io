@@ -11,4 +11,11 @@ url: "http://binarydreamer.com"
 markdown: kramdown
 theme: minima
 
-permalink: /:title/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /:title/

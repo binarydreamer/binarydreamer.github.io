@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Jekyll Email Cloak"
 date:   2015-01-22 23:11:00
 ---
