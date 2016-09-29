@@ -43,4 +43,4 @@ After the JavaScript executes the a tag will be updated like this:
 <a href="mailto:ryan@binarydreamer.com" id="cloak_email_1883227262981104657807012683967815274" class="cloak-email " data-before="ryan" data-after="binarydreamer.com">ryan@binarydreamer.com</a>
 {% endhighlight %}
 
-The project and installation instructions can be found at <a href="https://github.com/binarydreamer/jekyll-email-cloak" target="_blank">https://github.com/binarydreamer/jekyll-email-cloak</a>
+The project and installation instructions can be found at <a class="url" href="https://github.com/binarydreamer/jekyll-email-cloak" target="_blank">https://github.com/binarydreamer/jekyll-email-cloak</a>

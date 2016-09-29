@@ -5,7 +5,7 @@ date:   2015-06-02 19:55:00
 
 It's been a little while since I posted. I needed an easy to use concern to allow certain Active Record models the ability to soft delete. I looked over a couple gems but did not want to include yet another gem to my project. I wanted something I had more control over and after a little searching I found some code that intrigued me.
 
-<a href="http://stackoverflow.com/questions/23017070/how-to-hide-records-rather-than-delete-them-soft-delete-from-scratch#answer-23017174" target="_blank">http://stackoverflow.com/questions/23017070/how-to-hide-records-rather-than-delete-them-soft-delete-from-scratch</a>
+<a class="url" href="http://stackoverflow.com/questions/23017070/how-to-hide-records-rather-than-delete-them-soft-delete-from-scratch#answer-23017174" target="_blank">http://stackoverflow.com/questions/23017070/how-to-hide-records-rather-than-delete-them-soft-delete-from-scratch</a>
 
 After looking over the solution I decided to make a Rails 4 concern to fit my needs. Here is what came of it.
 

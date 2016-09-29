@@ -101,7 +101,9 @@ footer {
 }
 
 p {
-    word-break: break-all;
+    a.url {
+        word-break: break-all;
+    }
 }
 
 @media (min-width: 40.0rem) {
