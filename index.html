@@ -2,13 +2,12 @@
 layout: default
 ---
 
-  <h2 class="title">Articles</h2>
   <div class="post-list">
     {% for post in site.posts %}
       <div class="post">
-        <h4 class="title">
+        <h2 class="title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h4>
+        </h2>
         <p>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </p>

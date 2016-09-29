@@ -4,6 +4,7 @@
   {% include head.html %}
 </head>
 <body>
+  {% include analytics.html %}
   <div class="style-bar"></div>
 
   <div class="container">
@@ -11,7 +12,7 @@
       <div class="column">
         {% include header.html %}
 
-        <h2>{{page.title}}</h1>
+        <h2 class="title">{{page.title}}</h2>
         <p class="post-date">
           <strong>{{page.date | date: "%b %-d, %Y"}}</strong>
         </p>
